@@ -1,6 +1,6 @@
 <?php
 require_once 'dnspod.php';
-$dnspod=new dnspod(); // 在dnspod.php中修改一下密钥
+$dnspod=new dnspod(); // 在dnspod.php中修改一下腾讯云开发者密钥（不是dnspod密钥）
 $domain='abc.com';
 $subDomain='www2'; // www2.abc.com
 
